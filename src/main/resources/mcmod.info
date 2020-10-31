@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dynamictreesvampirism",
+  "name": "Dynamic Trees for Vampirism",
+  "description": "Adds compatibilities between Dynamic Trees and Vampirism.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Harley O'Connor"],
+  "credits": "Ferreusveritas for Dynamic Trees",
+  "logoFile": "sf-logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
