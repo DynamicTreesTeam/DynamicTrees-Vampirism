@@ -20,6 +20,19 @@ public final class ClientProxy extends CommonProxy {
 	@Override
 	public void init() {
 		super.init();
+
+		this.registerColorHandlers(); // Register colour handlers for client.
+	}
+
+	public void registerColorHandlers() {
+		for (BlockDynamicLeaves leaves: LeavesPaging.getLeavesMapForModId(AddonConstants.MOD_ID).values()) {
+			ModelHelper.regColorHandler(leaves, (state, worldIn, pos, tintIndex) -> {
+				Block block = state.getBlock();
+
+				if (TreeHelper.isLeaves(block)) return ((BlockDynamicLeaves) block).getProperties(state).foliageColorMultiplier(state, worldIn, pos);
+				return 0x00FF00FF; //Magenta
+			});
+		}
 	}
 
 }
