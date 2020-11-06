@@ -1,7 +1,5 @@
 package com.harleyoconnor.dynamictreesvampirism.trees;
 
-import com.ferreusveritas.dynamictrees.ModConstants;
-import com.ferreusveritas.dynamictrees.api.TreeRegistry;
 import com.ferreusveritas.dynamictrees.api.treedata.ILeavesProperties;
 import com.ferreusveritas.dynamictrees.items.Seed;
 import com.ferreusveritas.dynamictrees.trees.Species;
@@ -25,8 +23,6 @@ public final class SpeciesSpruceOak extends Species {
         leavesProperties.setTree(this.getFamily());
 
         this.setRequiresTileEntity(true);
-        this.setGrowthLogicKit(TreeRegistry.findSpecies(new ResourceLocation(ModConstants.MODID,"oak")).getGrowthLogicKit());
-
         this.setupStandardSeedDropping();
     }
 

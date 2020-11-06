@@ -1,12 +1,8 @@
 package com.harleyoconnor.dynamictreesvampirism.proxy;
 
-import com.ferreusveritas.dynamictrees.ModConstants;
-import com.ferreusveritas.dynamictrees.api.TreeRegistry;
 import com.ferreusveritas.dynamictrees.trees.Species;
 import com.harleyoconnor.dynamictreesvampirism.AddonContent;
 import de.teamlapen.vampirism.core.ModBiomes;
-import net.minecraft.init.Biomes;
-import net.minecraft.util.ResourceLocation;
 
 /**
  * Common proxy, holds things that are done on both client and server.
@@ -20,10 +16,20 @@ public class CommonProxy {
 	
 	public void init() {
 		AddonContent.spruceOakSpecies.getFamily().addSpeciesLocationOverride((world, trunkPos) -> world.getBiome(trunkPos).equals(ModBiomes.vampireForest) ? AddonContent.spruceOakSpecies : Species.NULLSPECIES);
-	}
 
-	private Species getSpecies (final String name) {
-		return TreeRegistry.findSpecies(new ResourceLocation(ModConstants.MODID, name));
+
+
+//		ModBiomes.vampireForest = new BiomeGenVampireForest() {
+//			@Override
+//			public WorldGenAbstractTree getRandomTreeFeature(Random rand) {
+//				return new WorldGenTrees(false) {
+//					@Override
+//					public boolean generate(World worldIn, Random rand, BlockPos position) {
+//						return true;
+//					}
+//				};
+//			}
+//		};
 	}
 
 	public void postInit() {
