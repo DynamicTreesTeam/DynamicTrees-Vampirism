@@ -1,2 +1,7 @@
+<img src="https://github.com/Harleyoc1/DynamicTreesVampirism/blob/master/banner.png?raw=true" alt="drawing" width="1176"/>
+
 # Dynamic Trees for Vampirism
-Dynamic Trees compatibility add-on for Vampirism. This will make dynamic trees spawn in the vampire forest.
+Dynamic Trees compatibility add-on for Vampirism.
+
+## Supported Trees
+- Spruce Oak
