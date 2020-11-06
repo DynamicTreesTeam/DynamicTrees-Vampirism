@@ -34,7 +34,7 @@ minecraft {
 }
 
 dependencies {
-    compile files("libs/DynamicTrees-1.12.2-0.9.19")
+    compile files("libs/DynamicTrees-1.12.2-0.9.21")
     compile files("libs/Vampirism-1.12.2-1.6.2")
 }
 

@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 /**
  * @author Harley O'Connor
  */
-@Mod(modid= AddonConstants.MOD_ID, name= AddonConstants.MOD_NAME, dependencies = AddonConstants.MOD_DEPENDENCIES)
+@Mod(modid= AddonConstants.MOD_ID, name= AddonConstants.MOD_NAME, dependencies = AddonConstants.MOD_DEPENDENCIES, updateJSON = "https://github.com/Harleyoc1/DynamicTreesVersionInfo/blob/master/Add-ons/Vamprisim.json?raw=true")
 public final class DynamicTreesVampirism {
 
     @SidedProxy(clientSide = AddonConstants.PACKAGE_GROUP + ".proxy.ClientProxy", serverSide = AddonConstants.PACKAGE_GROUP + ".proxy.CommonProxy")

@@ -16,20 +16,6 @@ public class CommonProxy {
 	
 	public void init() {
 		AddonContent.spruceOakSpecies.getFamily().addSpeciesLocationOverride((world, trunkPos) -> world.getBiome(trunkPos).equals(ModBiomes.vampireForest) ? AddonContent.spruceOakSpecies : Species.NULLSPECIES);
-
-
-
-//		ModBiomes.vampireForest = new BiomeGenVampireForest() {
-//			@Override
-//			public WorldGenAbstractTree getRandomTreeFeature(Random rand) {
-//				return new WorldGenTrees(false) {
-//					@Override
-//					public boolean generate(World worldIn, Random rand, BlockPos position) {
-//						return true;
-//					}
-//				};
-//			}
-//		};
 	}
 
 	public void postInit() {
