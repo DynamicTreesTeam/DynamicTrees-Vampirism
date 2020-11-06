@@ -9,7 +9,7 @@
   "updateUrl": "https://github.com/Harleyoc1/DynamicTreesVersionInfo/blob/master/Add-ons/Vamprisim.json?raw=true",
   "authorList": ["Harley O'Connor"],
   "credits": "Ferreusveritas for Dynamic Trees, Maxanier for Vampirism",
-  "logoFile": "sf-logo.png",
+  "logoFile": "vampirism-icon.png",
   "screenshots": [],
   "dependencies": []
 }
