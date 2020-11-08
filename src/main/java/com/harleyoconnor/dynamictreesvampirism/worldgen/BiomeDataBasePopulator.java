@@ -13,11 +13,11 @@ public final class BiomeDataBasePopulator implements IBiomeDataBasePopulator {
     private final BiomeDataBasePopulatorJson jsonPopulator;
 
     public BiomeDataBasePopulator() {
-        jsonPopulator = new BiomeDataBasePopulatorJson(new ResourceLocation(AddonConstants.MOD_ID, RESOURCEPATH));
+        this.jsonPopulator = new BiomeDataBasePopulatorJson(new ResourceLocation(AddonConstants.MOD_ID, RESOURCEPATH));
     }
 
     public void populate (BiomeDataBase dbase) {
-        jsonPopulator.populate(dbase);
+        this.jsonPopulator.populate(dbase);
     }
 
 }

@@ -26,7 +26,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
 
 @Mod.EventBusSubscriber(modid = AddonConstants.MOD_ID)
-public class AddonContent {
+public final class AddonContent {
 
 	public static Species spruceOakSpecies;
 
