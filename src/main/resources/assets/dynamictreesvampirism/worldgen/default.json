@@ -5,7 +5,7 @@
       "cancelvanilla": true,
       "species" : {
         "random" : {
-          "dynamictrees:oak" : 4
+          "dynamictreesvampirism:spruce_oak" : 4
         }
       },
       "chance": 1.0,
