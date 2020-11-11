@@ -1,11 +1,11 @@
 [
   {
-    "select": "vampirism:vampireforest",
+    "select" : { "name": "vampirism:vampireforest" },
     "apply": {
       "cancelvanilla": true,
       "species" : {
         "random" : {
-          "dynamictreesvampirism:spruce_oak" : 4
+          "dynamictrees:oak" : 4
         }
       },
       "chance": 1.0,

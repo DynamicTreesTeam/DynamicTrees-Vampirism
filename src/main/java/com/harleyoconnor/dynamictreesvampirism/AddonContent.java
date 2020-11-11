@@ -8,6 +8,7 @@ import com.ferreusveritas.dynamictrees.blocks.LeavesPaging;
 import com.ferreusveritas.dynamictrees.blocks.LeavesProperties;
 import com.ferreusveritas.dynamictrees.systems.DirtHelper;
 import com.ferreusveritas.dynamictrees.trees.Species;
+import com.ferreusveritas.dynamictrees.trees.TreeFamily;
 import com.harleyoconnor.dynamictreesvampirism.trees.SpeciesSpruceOak;
 import com.harleyoconnor.dynamictreesvampirism.worldgen.BiomeDataBasePopulator;
 import net.minecraft.block.Block;
@@ -43,8 +44,8 @@ public final class AddonContent {
 
 		LeavesPaging.getLeavesBlockForSequence(AddonConstants.MOD_ID, 0, oakLeaves);
 
-		spruceOakSpecies = new SpeciesSpruceOak(TreeRegistry.findSpecies(new ResourceLocation(ModConstants.MODID, "spruce")).getFamily(), oakLeaves);
-
+		TreeFamily spruce = TreeRegistry.findSpecies(new ResourceLocation(ModConstants.MODID, "spruce")).getFamily();
+		spruceOakSpecies = new SpeciesSpruceOak(spruce, oakLeaves);
 		Species.REGISTRY.register(spruceOakSpecies);
 
 		DirtHelper.registerSoil(Block.getBlockFromName(AddonConstants.VAMPIRISM_MOD_ID + ":cursed_earth"), DirtHelper.DIRTLIKE);
