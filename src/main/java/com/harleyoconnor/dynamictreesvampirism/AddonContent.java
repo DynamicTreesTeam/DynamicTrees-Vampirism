@@ -31,6 +31,8 @@ public final class AddonContent {
 
 	public static Species spruceOakSpecies;
 
+	public static String CORRUPTDIRTLIKE = "corruptdirtlike";
+
 	@SubscribeEvent
 	public static void registerDataBasePopulators(final BiomeDataBasePopulatorRegistryEvent event) {
 		event.register(new BiomeDataBasePopulator());
@@ -38,6 +40,8 @@ public final class AddonContent {
 
 	@SubscribeEvent
 	public static void registerBlocks(final RegistryEvent.Register<Block> event) {
+		DirtHelper.createNewAdjective(CORRUPTDIRTLIKE);
+
 		final IForgeRegistry<Block> registry = event.getRegistry();
 
 		final ILeavesProperties oakLeaves = setUpLeaves(Blocks.LEAVES, "deciduous");
@@ -48,7 +52,9 @@ public final class AddonContent {
 		spruceOakSpecies = new SpeciesSpruceOak(spruce, oakLeaves);
 		Species.REGISTRY.register(spruceOakSpecies);
 
-		DirtHelper.registerSoil(Block.getBlockFromName(AddonConstants.VAMPIRISM_MOD_ID + ":cursed_earth"), DirtHelper.DIRTLIKE);
+		Block cursedEarth = Block.getBlockFromName(AddonConstants.VAMPIRISM_MOD_ID + ":cursed_earth");
+		DirtHelper.registerSoil(cursedEarth, DirtHelper.DIRTLIKE);
+		DirtHelper.registerSoil(cursedEarth, CORRUPTDIRTLIKE);
 
 		LeavesPaging.getLeavesMapForModId(AddonConstants.MOD_ID).values().forEach(registry::register);
 	}
