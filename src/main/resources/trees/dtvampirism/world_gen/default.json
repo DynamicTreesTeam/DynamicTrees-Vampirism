@@ -1,0 +1,19 @@
+[
+  {
+    "select" : { "name": "vampirism:vampire_forest.*" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "dtvampirism:vampire_spruce" : 2,
+          "dtvampirism:bloody_spruce": 1
+        }
+      },
+      "chance": 1.0,
+      "forestness" : 1.0
+    },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "minecraft"
+    }
+  }
+]
