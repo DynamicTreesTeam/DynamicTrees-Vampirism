@@ -1,6 +1,6 @@
 {
   "parent": "dynamictrees:item/standard_seed",
   "textures": {
-    "layer0": "dynamictrees:item/spruce_seed"
+    "layer0": "dtvampirism:item/bloody_spruce_seed"
   }
 }

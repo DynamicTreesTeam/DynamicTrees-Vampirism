@@ -13,5 +13,5 @@
   "stick_drop_rarity": 1.0,
   "perfect_biomes": { "name": "vampirism:vampire_forest.*" },
   "primitive_sapling": "vampirism:bloody_spruce_sapling",
-  "acceptable_soils": [ "corrupt_dirt_like" ]
+  "acceptable_soils": [ "dirt_like", "corrupt_dirt_like" ]
 }
