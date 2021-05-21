@@ -33,7 +33,7 @@ Adds Dynamic Trees compatibility to Vampirism.
 [[dependencies.dtvampirism]]
     modId="dynamictrees"
     mandatory=true
-    versionRange="[0.10.0-Beta10,)"
+    versionRange="[0.10.0-Beta12,)"
     ordering="AFTER"
     side="BOTH"
 
