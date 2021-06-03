@@ -8,6 +8,7 @@
           "dtvampirism:bloody_spruce": 1
         }
       },
+      "density": [ 1 ],
       "chance": 1.0,
       "forestness" : 1.0
     },

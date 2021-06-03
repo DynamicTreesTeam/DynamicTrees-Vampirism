@@ -28,6 +28,7 @@ repositories {
         name = "MaxanierMaven"
         url = "https://maxanier.de/maven2"
     }
+    mavenLocal()
 }
 
 apply plugin: 'net.minecraftforge.gradle'
