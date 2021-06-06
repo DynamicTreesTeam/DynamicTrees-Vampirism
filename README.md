@@ -29,3 +29,4 @@ If you speak another language and would like to help, please [join the Dynamic T
 - 🇫🇷 19PixelsPlaced
 - 🇪🇸 Jorgegiral
 - 🇲🇽 EdicionGamerYT
+- 🇷🇺 WitherSkell & \_Kemeji\_
