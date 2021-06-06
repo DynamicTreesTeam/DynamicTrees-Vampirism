@@ -26,7 +26,7 @@ Thank you to the following people who spent their time making translations for t
 
 If you speak another language and would like to help, please [join the Dynamic Trees Discord](https://discord.gg/bGby2qxvqu).
 
-- 🇫🇷 19PixelsPlaced
+- 🇫🇷 [19PixelsPlaced](https://www.curseforge.com/members/19pixelsplaced/)
 - 🇪🇸 Jorgegiral
 - 🇲🇽 EdicionGamerYT
 - 🇷🇺 WitherSkell & \_Kemeji\_
