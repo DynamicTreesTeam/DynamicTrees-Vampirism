@@ -1,7 +1,7 @@
 {
-  "species.dtvampirism.vampire_spruce": "Sapin vampire",
-  "species.dtvampirism.bloody_spruce": "Sapin sanglant",
+  "species.dtvampirism.vampire_spruce": "Épicéa vampire",
+  "species.dtvampirism.bloody_spruce": "Épicéa sanglant",
 
-  "block.dtvampirism.bloody_spruce_branch": "Sapin sanglant",
-  "item.dtvampirism.bloody_spruce_seed": "Cône de sapin sanglant"
+  "block.dtvampirism.bloody_spruce_branch": "Épicéa sanglant",
+  "item.dtvampirism.bloody_spruce_seed": "Cône d'épicéa sanglant"
 }
