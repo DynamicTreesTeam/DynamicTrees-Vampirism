@@ -29,4 +29,4 @@ If you speak another language and would like to help, please [join the Dynamic T
 - 🇫🇷 [19PixelsPlaced](https://www.curseforge.com/members/19pixelsplaced/)
 - 🇪🇸 Jorgegiral
 - 🇲🇽 EdicionGamerYT
-- 🇷🇺 WitherSkell & \_Kemeji\_
+- 🇷🇺 [WitherSkell](https://www.youtube.com/channel/UCtyGipnseePUm50spdO5f3w) & [\_Kemeji\_](https://www.youtube.com/channel/UC9cN3DFCi-CY8lDZQHZqLBg)

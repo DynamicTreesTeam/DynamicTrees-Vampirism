@@ -35,8 +35,9 @@ public final class DTVampirism {
         final Block cursedEarth = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("vampirism", "cursed_earth"));
         DirtHelper.registerSoil(cursedEarth, CORRUPT_DIRT_LIKE);
 
-        for (final RootyBlock rooty : RootyBlockHelper.generateListForRegistry(true, MOD_ID))
+        for (final RootyBlock rooty : RootyBlockHelper.generateListForRegistry(true, MOD_ID)) {
             event.getRegistry().register(rooty);
+        }
     }
 
 }
