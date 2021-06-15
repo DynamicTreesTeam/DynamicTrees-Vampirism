@@ -21,12 +21,7 @@ Download at the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/d
 - Vampire Spruce
 - Bloody Spruce
 
-## Translations
-Thank you to the following people who spent their time making translations for the corresponding languages.
+## Translations 🇫🇷 🇪🇸 🇲🇽 🇷🇺
+Thank you to the people found [here](https://github.com/ferreusveritas/DynamicTrees/wiki/Translation-Credits) who spend their time creating and maintaining translations for this and other DT add-ons.
 
 If you speak another language and would like to help, please [join the Dynamic Trees Discord](https://discord.gg/bGby2qxvqu).
-
-- 🇫🇷 [19PixelsPlaced](https://www.curseforge.com/members/19pixelsplaced/)
-- 🇪🇸 Jorgegiral
-- 🇲🇽 EdicionGamerYT
-- 🇷🇺 [WitherSkell](https://www.youtube.com/channel/UCtyGipnseePUm50spdO5f3w) & [\_Kemeji\_](https://www.youtube.com/channel/UC9cN3DFCi-CY8lDZQHZqLBg)
