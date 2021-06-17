@@ -1,5 +1,6 @@
 package com.harleyoconnor.dtvampirism;
 
+import com.ferreusveritas.dynamictrees.DynamicTrees;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.blocks.rootyblocks.RootyBlock;
 import com.ferreusveritas.dynamictrees.systems.DirtHelper;
@@ -9,6 +10,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -38,6 +40,11 @@ public final class DTVampirism {
         for (final RootyBlock rooty : RootyBlockHelper.generateListForRegistry(true, MOD_ID)) {
             event.getRegistry().register(rooty);
         }
+    }
+
+    @SubscribeEvent
+    public void gatherData(final GatherDataEvent event) {
+        DynamicTrees.gatherTagGenerators(MOD_ID, event);
     }
 
 }

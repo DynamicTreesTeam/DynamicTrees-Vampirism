@@ -50,7 +50,7 @@ archivesBaseName = config.mod_name
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
-    mappings channel: 'snapshot', version: config.mappings_version
+    mappings channel: 'official', version: config.mc_version
 
     runs {
         client {
@@ -59,8 +59,8 @@ minecraft {
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
 
-            // For Serene Seasons as it uses Mixins.
-            properties 'mixin.env.disableRefMap' : 'true'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
 
             mods {
                 dtvampirism {
@@ -75,11 +75,32 @@ minecraft {
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
 
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
             // For Serene Seasons as it uses Mixins
             properties 'mixin.env.disableRefMap' : 'true'
 
             mods {
                 dtvampirism {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
+            args '--mod', 'dtvampirism', '--all', '--output', file('src/generated/resources/')
+
+            mods {
+                dynamictrees {
                     source sourceSets.main
                 }
             }
@@ -100,7 +121,6 @@ dependencies {
     // At runtime, use the full JEI mod.
     runtimeOnly fg.deobf("mezz.jei:jei-${config.mc_version}:${config.jei_version}")
 
-    // Compile Dynamic Trees, of course
     implementation fg.deobf(group: 'com.ferreusveritas.dynamictrees', name: "DynamicTrees-${config.mc_version}", version: config.dynamic_trees_version)
 
     implementation fg.deobf(group: 'de.teamlapen.vampirism', name: 'Vampirism', version: config.vampirism_version)
