@@ -119,7 +119,7 @@ dependencies {
     // Compile Dynamic Trees, of course.
     implementation fg.deobf(group: 'com.ferreusveritas.dynamictrees', name: "DynamicTrees-${mcVersion}", version: dynamicTreesVersion)
 
-    implementation fg.deobf(group: 'de.teamlapen.vampirism', name: 'Vampirism', version: vampirismVersion)
+    implementation fg.deobf(group: 'de.teamlapen.vampirism', name: 'Vampirism', version: "${mcVersion}-${vampirismVersion}")
 }
 
 jar {
