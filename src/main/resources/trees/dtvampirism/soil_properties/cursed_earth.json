@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "vampirism:cursed_earth",
+  "acceptable_soils": [ "corrupt_dirt_like" ]
+}

@@ -10,6 +10,10 @@ buildscript {
     }
 }
 
+plugins {
+    id 'com.matthewprenger.cursegradle' version '1.4.0'
+}
+
 repositories {
     maven {
         name 'LDTTeam - Modding'
@@ -22,14 +26,12 @@ repositories {
         url "https://www.cursemaven.com"
     }
     maven {
-        url "http://harleyoconnor.com/maven"
-        allowInsecureProtocol = true
+        url "https://harleyoconnor.com/maven"
     }
     maven {
         name = "MaxanierMaven"
         url = "https://maxanier.de/maven2"
     }
-    mavenLocal()
 }
 
 apply plugin: 'net.minecraftforge.gradle'
@@ -55,6 +57,16 @@ minecraft {
 
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
+            if (project.hasProperty('mcUuid')) {
+                args '--uuid', property('mcUuid')
+            }
+            if (project.hasProperty('mcUsername')) {
+                args '--username', property('mcUsername')
+            }
+            if (project.hasProperty('mcAccessToken')) {
+                args '--accessToken', property('mcAccessToken')
+            }
 
             mods {
                 dtvampirism {
@@ -145,6 +157,34 @@ jar.finalizedBy('reobfJar')
 
 java {
     withSourcesJar()
+}
+
+curseforge {
+    if (project.hasProperty("curseApiKey") && project.hasProperty("curseFileType")) {
+        apiKey = property("curseApiKey")
+
+        project {
+            id = '418326'
+
+            addGameVersion '1.16.4'
+            addGameVersion mcVersion
+
+            changelog = file('build/changelog.md')
+            changelogType = 'markdown'
+            releaseType = property("curseFileType")
+
+            addArtifact sourcesJar
+
+            mainArtifact(jar) {
+                relations {
+                    requiredDependency 'dynamictrees'
+                    requiredDependency 'vampirism-become-a-vampire'
+                }
+            }
+        }
+    } else {
+        project.logger.log(LogLevel.WARN, "API Key and file type for CurseForge not detected; uploading will be disabled.")
+    }
 }
 
 publishing {
