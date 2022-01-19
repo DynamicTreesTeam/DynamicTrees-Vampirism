@@ -1,6 +1,6 @@
 ![Banner](./banner.png)
 <h1 align="center">
-Dynamic Trees for Nature's Aura
+Dynamic Trees for Vampirism
 </h1>
 <p align="center">
     <a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-vampirism">
