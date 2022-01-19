@@ -1,4 +1,6 @@
-![Banner](./banner.png)
+<div align="center">
+    <img src="./banner.png" width="588"/>
+</div>
 <h1 align="center">
 Dynamic Trees for Vampirism
 </h1>
