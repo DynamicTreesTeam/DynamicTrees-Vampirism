@@ -6,11 +6,11 @@ Dynamic Trees for Vampirism
 </h1>
 <p align="center">
     <a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-vampirism">
-        <img src="http://cf.way2muchnoise.eu/dynamic-trees-vampirism.svg"  alt="Downloads"/>
-        <img src="http://cf.way2muchnoise.eu/versions/dynamic-trees-vampirism.svg"  alt="Versions"/>
+        <img src="http://cf.way2muchnoise.eu/418326.svg"  alt="Downloads"/>
+        <img src="http://cf.way2muchnoise.eu/versions/418326.svg"  alt="Versions"/>
     </a>
     <a href="https://www.curseforge.com/minecraft/mc-mods/dynamictrees">
-        <img src="http://cf.way2muchnoise.eu/title/dynamictrees.svg"  alt="RequiresDT"/>
+        <img src="http://cf.way2muchnoise.eu/title/252818_Requires_%20.svg"  alt="RequiresDT"/>
     </a>
 </p>
 <br>
