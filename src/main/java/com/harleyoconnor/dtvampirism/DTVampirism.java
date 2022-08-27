@@ -1,8 +1,7 @@
 package com.harleyoconnor.dtvampirism;
 
-import com.ferreusveritas.dynamictrees.DynamicTrees;
+import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -18,12 +17,12 @@ public final class DTVampirism {
     public DTVampirism() {
         RegistryHandler.setup(MOD_ID);
 
-        FMLJavaModLoadingContext.get().getModEventBus().register(this);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::gatherData);
     }
 
-    @SubscribeEvent
-    public void gatherData(final GatherDataEvent event) {
-        DynamicTrees.gatherTagGenerators(MOD_ID, event);
+    private void gatherData(final GatherDataEvent event) {
+        GatherDataHelper.gatherTagData(MOD_ID, event);
+        GatherDataHelper.gatherLootData(MOD_ID, event);
     }
 
 }
