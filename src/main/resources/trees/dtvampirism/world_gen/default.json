@@ -1,6 +1,6 @@
 [
   {
-    "select" : { "name": "vampirism:vampire_forest.*" },
+    "select" : { "name": "vampirism:vampire_forest" },
     "apply": {
       "species" : {
         "random" : {
