@@ -1,0 +1,9 @@
+[
+  {
+    "select" : { "name": "vampirism:vampire_forest" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "minecraft"
+    }
+  }
+]
