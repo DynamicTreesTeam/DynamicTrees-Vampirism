@@ -4,8 +4,8 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtvampirism:vampire_spruce" : 2,
-          "dtvampirism:bloody_spruce": 1
+          "dtvampirism:dark_spruce" : 7,
+          "dtvampirism:cursed_spruce": 3
         }
       },
       "density": [ 1 ],

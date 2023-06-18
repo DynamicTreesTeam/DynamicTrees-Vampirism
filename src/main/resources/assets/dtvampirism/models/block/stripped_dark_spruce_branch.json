@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "vampirism:block/stripped_dark_spruce_log",
+    "rings": "vampirism:block/stripped_dark_spruce_log_top"
+  }
+}

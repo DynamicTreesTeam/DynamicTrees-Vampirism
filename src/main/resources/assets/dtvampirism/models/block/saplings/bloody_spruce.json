@@ -1,8 +1,0 @@
-{
-  "parent": "dynamictrees:block/smartmodel/sapling",
-  "textures": {
-    "particle": "block/oak_leaves",
-    "log": "vampirism:block/bloody_spruce_log",
-    "leaves": "block/oak_leaves"
-  }
-}

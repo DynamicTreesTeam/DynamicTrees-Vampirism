@@ -1,7 +1,6 @@
 {
-  "replace": false,
   "values": [
-    "dtvampirism:vampire_spruce_sapling",
-    "dtvampirism:bloody_spruce_sapling"
+    "dtvampirism:cursed_spruce_sapling",
+    "dtvampirism:dark_spruce_sapling"
   ]
 }

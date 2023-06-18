@@ -1,0 +1,7 @@
+{
+  "_comment": "This is needed as two families cannot share the same leaves. It is effectively a copy of dark spruce leaves for cursed spruce.",
+  "primitive_leaves": "vampirism:dark_spruce_leaves",
+  "smother": 3,
+  "cell_kit": "dynamictrees:conifer",
+  "color": "#1E1F1F"
+}

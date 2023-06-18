@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "vampirism:cursed_grass_block",
+  "primitive_soil": "vampirism:cursed_grass",
   "acceptable_soils": [ "corrupt_dirt_like" ]
 }

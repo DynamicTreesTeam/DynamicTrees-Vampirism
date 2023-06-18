@@ -1,6 +1,6 @@
 license="MIT"
 modLoader="javafml"
-loaderVersion="[40,41)"
+loaderVersion="[43,46)"
 issueTrackerURL="https://github.com/Harleyoc1/DynamicTreesVampirism/issues"
 
 [[mods]]
@@ -19,27 +19,27 @@ Adds Dynamic Trees compatibility to Vampirism.
 [[dependencies.dtvampirism]]
     modId="forge"
     mandatory=true
-    versionRange="[40,41)"
+    versionRange="[43,46)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.dtvampirism]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2,1.19)"
+    versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.dtvampirism]]
     modId="dynamictrees"
     mandatory=true
-    versionRange="[0.11.0,)"
+    versionRange="[1.1.0-BETA1,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.dtvampirism]]
     modId="vampirism"
     mandatory=true
-    versionRange="[1.8.7,)"
+    versionRange="[1.9.4,)"
     ordering="AFTER"
     side="BOTH"

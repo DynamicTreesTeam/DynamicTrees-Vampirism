@@ -1,7 +1,9 @@
 {
-  "species.dtvampirism.vampire_spruce": "Vampire Spruce",
-  "species.dtvampirism.bloody_spruce": "Bloody Spruce",
+  "species.dtvampirism.dark_spruce": "Dark Spruce",
+  "species.dtvampirism.cursed_spruce": "Cursed Spruce",
 
-  "block.dtvampirism.bloody_spruce_branch": "Bloody Spruce Tree",
-  "item.dtvampirism.bloody_spruce_seed": "Bloody Spruce Cone"
+  "block.dtvampirism.dark_spruce_branch": "Dark Spruce Tree",
+  "block.dtvampirism.cursed_spruce_branch": "Cursed Spruce Tree",
+  "item.dtvampirism.dark_spruce_seed": "Dark Spruce Cone",
+  "item.dtvampirism.cursed_spruce_seed": "Cursed Spruce Cone"
 }
