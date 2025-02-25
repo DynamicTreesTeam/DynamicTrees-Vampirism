@@ -1,0 +1,8 @@
+{
+  "only_if_loaded": "werewolves",
+  "common_leaves": "dtvampirism:magic",
+  "common_species": "dtvampirism:magic",
+  "primitive_log": "werewolves:magic_log",
+  "primitive_stripped_log": "werewolves:stripped_magic_log",
+  "max_branch_radius": 8
+}

@@ -1,6 +1,14 @@
 {
   "values": [
-    "dtvampirism:cursed_spruce_leaves",
-    "dtvampirism:dark_spruce_leaves"
+    {
+      "id": "dtvampirism:jacaranda_leaves",
+      "required": false
+    },
+    "dtvampirism:dark_spruce_leaves",
+    {
+      "id": "dtvampirism:magic_leaves",
+      "required": false
+    },
+    "dtvampirism:cursed_spruce_leaves"
   ]
 }

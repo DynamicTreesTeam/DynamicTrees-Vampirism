@@ -85,10 +85,12 @@ dependencies {
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
     implementation(fg.deobf("de.teamlapen.vampirism:Vampirism:$mcVersion-${property("vampirismVersion")}"))
 
-    runtimeOnly(fg.deobf("curse.maven:jade-324717:4433884"))
+    //Compat with Werewolves
+    runtimeOnly(fg.deobf("curse.maven:werewolves-become-a-beast-417851:5406832"))
+    runtimeOnly(fg.deobf("curse.maven:jade-324717:5876199"))
     runtimeOnly(fg.deobf("mezz.jei:jei-$mcVersion-forge:${property("jeiVersion")}"))
-    runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
-    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.19:${property("suggestionProviderFixVersion")}"))
+    runtimeOnly(fg.deobf("cc.tweaked:cc-tweaked-$mcVersion-forge:${property("ccVersion")}"))
+    runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
 }
 
 tasks.jar {

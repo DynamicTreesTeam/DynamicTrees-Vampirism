@@ -1,6 +1,14 @@
 {
   "values": [
-    "dtvampirism:cursed_spruce_branch",
-    "dtvampirism:dark_spruce_branch"
+    {
+      "id": "dtvampirism:jacaranda_branch",
+      "required": false
+    },
+    "dtvampirism:dark_spruce_branch",
+    {
+      "id": "dtvampirism:magic_branch",
+      "required": false
+    },
+    "dtvampirism:cursed_spruce_branch"
   ]
 }
