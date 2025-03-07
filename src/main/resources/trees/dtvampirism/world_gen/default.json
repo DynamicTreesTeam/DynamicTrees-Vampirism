@@ -12,5 +12,22 @@
       "chance": 1.0,
       "forestness" : 1.0
     }
+  },
+  {
+    "only_if_loaded": "werewolves",
+    "select" : { "name": "werewolves:werewolf_heaven" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "spruce" : 12,
+          "dtvampirism:jacaranda": 3,
+          "dtvampirism:dead_spruce": 3,
+          "dtvampirism:magic":1
+        }
+      },
+      "density": [ 1 ],
+      "chance": 1.0,
+      "forestness" : 1.0
+    }
   }
 ]

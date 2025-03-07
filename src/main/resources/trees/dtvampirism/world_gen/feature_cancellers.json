@@ -5,5 +5,13 @@
       "type": "tree",
       "namespace": "minecraft"
     }
+  },
+  {
+    "only_if_loaded": "werewolves",
+    "select" : { "name": "werewolves:werewolf_heaven" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "minecraft"
+    }
   }
 ]

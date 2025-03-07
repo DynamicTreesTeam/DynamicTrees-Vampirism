@@ -1,6 +1,14 @@
 {
   "values": [
-    "dtvampirism:cursed_spruce_seed",
-    "dtvampirism:dark_spruce_seed"
+    {
+      "id": "dtvampirism:jacaranda_seed",
+      "required": false
+    },
+    "dtvampirism:dark_spruce_seed",
+    {
+      "id": "dtvampirism:magic_seed",
+      "required": false
+    },
+    "dtvampirism:cursed_spruce_seed"
   ]
 }
