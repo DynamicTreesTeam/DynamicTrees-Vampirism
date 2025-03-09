@@ -4,5 +4,6 @@
   "common_species": "dtvampirism:magic",
   "primitive_log": "werewolves:magic_log",
   "primitive_stripped_log": "werewolves:stripped_magic_log",
-  "max_branch_radius": 8
+  "max_branch_radius": 8,
+  "loot_volume_multiplier": 2
 }
