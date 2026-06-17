@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "werewolves:block/magic_log",
+    "rings": "werewolves:block/magic_log_top"
+  }
+}
