@@ -1,4 +1,4 @@
-package net.altias.dtvampirism.cell;
+package com.dtteam.dtvampirism.cell;
 
 import com.dtteam.dynamictrees.api.voxmap.SimpleVoxmap;
 import net.minecraft.core.BlockPos;

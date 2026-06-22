@@ -1,4 +1,4 @@
-package net.altias.dtvampirism.tree;
+package com.dtteam.dtvampirism.tree;
 
 import com.dtteam.dynamictrees.api.network.NodeInspector;
 import com.dtteam.dynamictrees.api.registry.TypedRegistry;
@@ -9,7 +9,7 @@ import com.dtteam.dynamictrees.block.leaves.LeavesProperties;
 import com.dtteam.dynamictrees.tree.TreeHelper;
 import com.dtteam.dynamictrees.tree.family.Family;
 import com.dtteam.dynamictrees.tree.species.Species;
-import net.altias.dtvampirism.cell.DTVampirismLeafClusters;
+import com.dtteam.dtvampirism.cell.DTVampirismLeafClusters;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;

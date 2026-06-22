@@ -1,7 +1,7 @@
 {
   "only_if_loaded": "werewolves",
   "primitive_leaves": "werewolves:magic_leaves",
-  "cell_kit": "dtvampirism:magic",
+  "cell_kit": "dtaddon_lib:poplar",
   "smother": 12,
   "light_requirement": 10
 }

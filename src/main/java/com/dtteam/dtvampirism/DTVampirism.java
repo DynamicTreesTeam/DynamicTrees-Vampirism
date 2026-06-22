@@ -1,4 +1,4 @@
-package net.altias.dtvampirism;
+package com.dtteam.dtvampirism;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
