@@ -10,6 +10,9 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven {
+        url 'https://harleyoconnor.com/maven'
+    }
     exclusiveContent {
         forRepository {
             maven {
@@ -54,7 +57,12 @@ neoForge {
 
         data {
             data()
-            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(),
+                    '--existing', file('src/main/resources').getAbsolutePath(),
+                    "--existing-mod", "dynamictrees",
+                    "--existing-mod", "vampirism",
+                    "--existing-mod", "werewolves"
         }
 
         configureEach {
@@ -75,7 +83,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources/' }
 
 dependencies {
     implementation ("curse.maven:vampirism-233029:6387585")
-    implementation "curse.maven:dynamictrees-252818:8227322"
+    implementation "com.dtteam.dynamictrees:dynamictrees-neoforge-$minecraft_version:$dynamic_trees_version"
     implementation "curse.maven:dynamic-trees-addon-lib-1404692:7556695"
 
     runtimeOnly("curse.maven:werewolves-417851:6164806")
@@ -94,7 +102,8 @@ tasks.withType(ProcessResources).configureEach {
             mod_version            : mod_version,
             mod_authors            : mod_authors,
             mod_credits            : mod_credits,
-            mod_description        : mod_description
+            mod_description        : mod_description,
+            dynamic_trees_version  : dynamic_trees_version
     ]
     inputs.properties replaceProperties
 

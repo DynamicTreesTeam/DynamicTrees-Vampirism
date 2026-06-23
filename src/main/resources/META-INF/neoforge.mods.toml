@@ -24,3 +24,18 @@ issueTrackerURL="https://github.com/DynamicTreesTeam/DynamicTrees-Vampirism/issu
     versionRange = "${minecraft_version_range}"
     ordering = "NONE"
     side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId="dynamictrees"
+type="required"
+versionRange="[${dynamic_trees_version},)"
+ordering="AFTER"
+side="BOTH"
+
+
+[[dependencies."${mod_id}"]]
+modId="dtaddon_lib"
+type="required"
+versionRange="[0.2.0-BETA03,)"
+ordering="AFTER"
+side="BOTH"
