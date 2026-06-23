@@ -1,16 +1,16 @@
 {
-  "species.dtvampirism.dark_spruce": "Dark Spruce",
-  "species.dtvampirism.cursed_spruce": "Cursed Spruce",
-  "species.dtvampirism.jacaranda": "Jacaranda",
-  "species.dtvampirism.magic": "Magic",
-  "species.dtvampirism.dead_spruce": "Dead Spruce",
+  "species.dynamictrees.dark_spruce": "Dark Spruce",
+  "species.dynamictrees.cursed_spruce": "Cursed Spruce",
+  "species.dynamictrees.jacaranda": "Jacaranda",
+  "species.dynamictrees.magic": "Magic",
+  "species.dynamictrees.dead_spruce": "Dead Spruce",
 
-  "block.dtvampirism.dark_spruce_branch": "Dark Spruce Tree",
-  "block.dtvampirism.cursed_spruce_branch": "Cursed Spruce Tree",
-  "block.dtvampirism.jacaranda_branch": "Jacaranda Tree",
-  "block.dtvampirism.magic_branch": "Magic Tree",
-  "item.dtvampirism.dark_spruce_seed": "Dark Spruce Cone",
-  "item.dtvampirism.cursed_spruce_seed": "Cursed Spruce Cone",
-  "item.dtvampirism.jacaranda_seed": "Jacaranda Pod",
-  "item.dtvampirism.magic_seed": "Magic Catkin"
+  "block.dynamictrees.dark_spruce_branch": "Dark Spruce Tree",
+  "block.dynamictrees.cursed_spruce_branch": "Cursed Spruce Tree",
+  "block.dynamictrees.jacaranda_branch": "Jacaranda Tree",
+  "block.dynamictrees.magic_branch": "Magic Tree",
+  "item.dynamictrees.dark_spruce_seed": "Dark Spruce Cone",
+  "item.dynamictrees.cursed_spruce_seed": "Cursed Spruce Cone",
+  "item.dynamictrees.jacaranda_seed": "Jacaranda Pod",
+  "item.dynamictrees.magic_seed": "Magic Catkin"
 }
